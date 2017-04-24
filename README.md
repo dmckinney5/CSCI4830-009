@@ -9,6 +9,7 @@
 Ned McClain
 Department of Computer Science
 Office Hours:  Tu 11:00-12:00 @ ECCS 122
+(Homework 1 Improvement Idea: Maybe add an email address to this section. I believe you wrote it on the board on the first day, but it would be nice to have somewhere public like this as the semester draws to a close and people start to get stressed about grades and such)
 
 ## Course Objectives
 This course provides both a practical and theoretical foundation of the technical, social and legal frameworks of (free/libre) open source software projects. The course is designed to provide hands-on mentoring and support to students as they learn to use the tools and procedures to make a first contribution to a real project. The course also covers theoretical aspects such as the history, technologies, common practices, and legal and organizational considerations when joining existing or starting new open source projects. Students are expected to join and make contributions to existing open source projects as part of this course.

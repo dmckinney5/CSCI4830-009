@@ -101,6 +101,7 @@
 **Montek S. Thind**
 
 **Option 2** I made a new repository Open Source and included files for assignment 3. https://github.com/montythind/OpenSource
+Please follow the same link for HW 4. CI/CD is implemented through travis. The script helloWorld.py run pass all the test cases.
 
 ---
 

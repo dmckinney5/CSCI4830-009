@@ -95,6 +95,7 @@
 **Brian Alfano**
 
 **Option 2** Here is Homework 3 and Homeowork 4. Updated for Homeowork 4 to contain a HelloWorld program in Python running on a Flask server with tests: https://github.com/No-Doy/HW3_Licensing
+**UPDATE:** Added Travis CI to get full credit! Added screen shots so you can see that it worked.
 
 ---
 

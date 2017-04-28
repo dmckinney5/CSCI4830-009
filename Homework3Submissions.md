@@ -125,3 +125,11 @@ Please follow the same link for HW 4. CI/CD is implemented through travis. The s
 **Aubree Lytwyn**
 
 **Option 2** https://github.com/Aubree/OpenSourceLearning.git
+
+---
+
+**Yijun Zhang**
+
+**Option 2** I created a new repository for H3 and H4. I use GNU General Public License v3.0 for H3 and Travis CI for H4.
+
+**Link** https://github.com/GeneZH/HelloWorld

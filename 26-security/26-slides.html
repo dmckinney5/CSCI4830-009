@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSCI 4830-009: Open Source Development</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+    <style type="text/css">
+	.remark-slide-content { 
+		background-size: 100% 100%;
+	}
+	.invert {
+		color: #fdd;
+	}
+	.footnote {
+		position: absolute;
+		bottom: 3em;
+		color: #f06; 
+	}
+	img {
+		width: 100%;
+	}
+	.hero {
+		color: #22a; 
+		background-color: #eee;
+		padding: 4px;
+		font-size: 100px;
+	}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# CSCI 4830-009
+
+## Open Source Development
+## Spring, 2017
+## Ned McClain
+
+---
+class: center, middle
+
+# Welcome!
+
+--
+
+## Today: Security, Resources, and Project Presentation Details
+---
+
+background-image: url(images/moore01.png)
+---
+background-image: url(images/moore02.png)
+---
+background-image: url(images/multicore_crisis.png
+---
+background-image: url(images/moore03.png)
+---
+background-image: url(images/moore04.png)
+---
+background-image: url(images/moore05.png)
+---
+background-image: url(images/evol1.png)
+---
+background-image: url(images/evol2.png)
+---
+background-image: url(images/evol3.png)
+---
+background-image: url(images/evol2.png)
+---
+background-image: url(images/evol4.png)
+---
+background-image: url(images/evol2.png)
+---
+background-image: url(images/coal.png)
+---
+background-image: url(images/coal2.png)
+---
+background-image: url(images/evol6a.png)
+---
+background-image: url(images/evol5.png)
+---
+background-image: url(images/evol6.png)
+---
+background-image: url(images/evol7.png)
+---
+background-image: url(images/evol8.png)
+---
+background-image: url(images/evol9.png)
+---
+background-image: url(images/evol10.png)
+---
+background-image: url(images/sec1.png)
+---
+background-image: url(images/sec2.png)
+---
+background-image: url(images/sec3.png)
+---
+background-image: url(images/case1.png)
+---
+background-image: url(images/case2.png)
+---
+background-image: url(images/case3.png)
+---
+background-image: url(images/pci.png)
+---
+background-image: url(images/case4.png)
+---
+background-image: url(images/case5.png)
+---
+background-image: url(images/case6.png)
+---
+background-image: url(images/case7.png)
+---
+background-image: url(images/case8.png)
+---
+background-image: url(images/case9.png)
+---
+background-image: url(images/case10.png)
+---
+background-image: url(images/case11.png)
+---
+background-image: url(images/case12.png)
+---
+background-image: url(images/case13.png)
+---
+background-image: url(images/case14.png)
+---
+background-image: url(images/case15.png)
+---
+background-image: url(images/case16.png)
+---
+background-image: url(images/case17.png)
+---
+background-image: url(images/case18.png)
+---
+background-image: url(images/case19.png)
+---
+background-image: url(images/case20.png)
+---
+background-image: url(images/case21.png)
+---
+background-image: url(images/case22.png)
+---
+background-image: url(images/case23.png)
+---
+background-image: url(images/case24.png)
+---
+background-image: url(images/case25.png)
+---
+background-image: url(images/case26.png)
+---
+background-image: url(images/case27.png)
+---
+background-image: url(images/case28.png)
+---
+background-image: url(images/case29.png)
+---
+background-image: url(images/case30.png)
+---
+background-image: url(images/case31.png)
+---
+background-image: url(images/ror1.png)
+---
+background-image: url(images/ror2.png)
+---
+background-image: url(images/ror3.png)
+---
+background-image: url(images/ror4.png)
+---
+background-image: url(images/ror5.png)
+---
+background-image: url(images/ror6.png)
+---
+background-image: url(images/ror7.png)
+---
+background-image: url(images/ror8.png)
+---
+background-image: url(images/owasp0.png)
+---
+background-image: url(images/owasp1.png)
+---
+background-image: url(images/owasp2.png)
+---
+background-image: url(images/owasp3.png)
+---
+background-image: url(images/owasp5.png)
+---
+background-image: url(images/owasp6.png)
+---
+background-image: url(images/owasp7.png)
+---
+background-image: url(images/owasp8.png)
+---
+background-image: url(images/owasp9.png)
+---
+background-image: url(images/owasp10.png)
+---
+background-image: url(images/owasp11.png)
+---
+background-image: url(images/owasp12.png)
+---
+background-image: url(images/owasp13.png)
+---
+background-image: url(images/owasp14.png)
+---
+background-image: url(images/owasp15.png)
+---
+background-image: url(images/owasp16.png)
+---
+background-image: url(images/owasp17.png)
+---
+background-image: url(images/owasp18.png)
+---
+background-image: url(images/owasp19.png)
+---
+background-image: url(images/owasp20.png)
+---
+background-image: url(images/owasp21.png)
+---
+background-image: url(images/owasp25.png)
+---
+background-image: url(images/owasp23.png)
+---
+background-image: url(images/owasp24.png)
+---
+background-image: url(images/owasp22.png)
+---
+background-image: url(images/owasp26.png)
+---
+background-image: url(images/owasp27.png)
+---
+background-image: url(images/owasp28.png)
+---
+background-image: url(images/owasp29.png)
+---
+# Warnings: Don’t stop at 10.
+## There are hundreds of issues that could affect the overall security of a web application as discussed in the OWASP Developer’s Guide and the OWASP Cheat Sheet Series. These are essential reading for anyone developing web applications and APIs. Guidance on how to effectively find vulnerabilities in web applications and APIs is provided in the OWASP Testing Guide and the OWASP Code Review Guide.
+---
+# Warnings: Constant change.
+## This Top 10 will continue to change. Even without changing a single line of your application’s code, you may become vulnerable as new flaws are discovered and attack methods are refined. Please review the advice at the end of the Top 10 in “What’s Next For Developers, Verifiers, and Organizations” for more information.
+---
+# Warnings: Think positive.
+## When you’re ready to stop chasing vulnerabilities and focus on establishing strong application security controls, OWASP is maintaining and promoting the Application Security Verification Standard (ASVS) as a guide to organizations and application reviewers on what to verify.
+---
+# Warnings: Use tools wisely.
+## Security vulnerabilities can be quite complex and buried in mountains of code. In many cases, the most cost-effective approach for finding and eliminating these weaknesses is human experts armed with good tools.
+---
+background-image: url(images/owasp4.png)
+---
+background-image: url(images/owasp30.png)
+---
+background-image: url(images/owasp31.png)
+---
+background-image: url(images/res1.png)
+---
+background-image: url(images/res2.png)
+---
+background-image: url(images/res3.png)
+---
+background-image: url(images/res4.png)
+---
+background-image: url(images/res5.png)
+---
+background-image: url(images/res6.png)
+---
+background-image: url(images/res7.png)
+---
+background-image: url(images/pirate1.png)
+---
+background-image: url(images/pirate2.png)
+---
+background-image: url(images/pirate3.png)
+---
+background-image: url(images/pirate4.png)
+---
+background-image: url(images/pirate5.png)
+---
+background-image: url(images/pirate6.png)
+---
+# Open Source is a *human* endeavor
+
+--
+
+# Use metrics to learn about people
+## Understanding metrics will help you build an active, growing open source project. Even if you don’t track every metric on a dashboard, use the framework above to focus your attention on the type of behavior that will help your project thrive.
+---
+# Project Presentations
+
+## Unfortunately, limited to 2-3 minutes
+## 1. Quick summary of the project and its users
+## 2. Technical lesson learned
+## 3. Non-technical lesson learned
+
+---
+# Project Presentations
+
+## Monday, May 1
+#### bral4884, taan7753, joba4402, brbr6964, wico5480, bedr5044, erfo8707, olha8146, pail4944, knightkd, tylu3495, auly0337, joma6391, dymc7938, emmo5538, jepe8754, ryri9147, , caso1288, tangc, moth6041, coto2006, trwa1695, pezh4088
+
+## Monday, May 3
+#### azal6477, kech6037, vigu1631, liji7719, yali2241, aoli8336, yoma2088, nguyencq, sipa9922, chra0718, sare7383, issh3874, shal5122, yish3837, liso9349, mota2890, vate0235, bhth7621, xuwu5663, yizh3565, hosh6209
+
+---
+background-image: url(images/hired1.png)
+---
+background-image: url(images/hired2.png)
+---
+background-image: url(images/hired3.png)
+---
+class: center, middle
+
+# Next Week: Project Presentations
+
+    </textarea>
+    <script src="../remark.min.js" type="text/javascript"></script>
+    <script type="text/javascript">var slideshow = remark.create({countIncrementalSlides: true});</script>
+  </body>
+</html>

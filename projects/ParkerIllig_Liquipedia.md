@@ -1,8 +1,9 @@
 # Student Name: Parker Illig
 # Project Name: Liquipedia
-# Project URL:  wiki.teamliquid.net/commons/MediaWiki:Common.js
-				wiki.teamliquid.net/commons/User:TypicalGatsby/scripts
-				wiki.teamliquid.net/commons/Tools
+# Project URLs:  
+[wiki.teamliquid.net/commons/MediaWiki:Common.js](wiki.teamliquid.net/commons/MediaWiki:Common.js) - Where the production code is stored
+[wiki.teamliquid.net/commons/User:TypicalGatsby/scripts](wiki.teamliquid.net/commons/User:TypicalGatsby/scripts) - Where I submit my userscripts
+[wiki.teamliquid.net/commons/Tools](wiki.teamliquid.net/commons/Tools) - Where the functionality is present
 
 ## Planned contribution (1-3 sentences):
 I reached out to the guy who runs Liquipedia about what I can do to help even though a significant amount of the project is in PHP. I told him I could work on some documentation, and he said he might also have some things in HTML, CSS, or JavaScript for me to do. He will come back to me on March 6th about what I can be working on specifically.

@@ -1,8 +1,8 @@
 
 # Student Name: Jessica Petty
-# Project Name: Sublime Command-Lime
-# Project URL: github.com/jepetty/commandLimeSublime
-# HW3 URL: github.com/jepetty/commandLimeSublime
+# Project Name: ~~Sublime Command-Lime~~ Mac ~> Windows
+# Project URL: ~~github.com/jepetty/commandLimeSublime~~ github.com/jepetty/macWindows
+# HW3 URL: ~~github.com/jepetty/commandLimeSublime~~ github.com/jepetty/macWindows
 
 ## Planned contribution (1-3 sentences):
 Currently, it's quite tedious to be able to run sublime from the command line on a mac (you have to set path variables and mess with certain directories/file structures, etc). So, I'd like to create a script that will help users bypass this process and begin running Sublime via command line.

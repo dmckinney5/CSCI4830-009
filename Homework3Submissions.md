@@ -95,12 +95,14 @@
 **Brian Alfano**
 
 **Option 2** Here is Homework 3 and Homeowork 4. Updated for Homeowork 4 to contain a HelloWorld program in Python running on a Flask server with tests: https://github.com/No-Doy/HW3_Licensing
+**UPDATE:** Added Travis CI to get full credit! Added screen shots so you can see that it worked.
 
 ---
 
 **Montek S. Thind**
 
 **Option 2** I made a new repository Open Source and included files for assignment 3. https://github.com/montythind/OpenSource
+Please follow the same link for HW 4. CI/CD is implemented through travis. The script helloWorld.py run pass all the test cases.
 
 ---
 
@@ -123,3 +125,11 @@
 **Aubree Lytwyn**
 
 **Option 2** https://github.com/Aubree/OpenSourceLearning.git
+
+---
+
+**Yijun Zhang**
+
+**Option 2** I created a new repository for H3 and H4. I use GNU General Public License v3.0 for H3 and Travis CI for H4.
+
+**Link** https://github.com/GeneZH/HelloWorld

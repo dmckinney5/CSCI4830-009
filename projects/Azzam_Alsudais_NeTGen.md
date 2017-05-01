@@ -11,3 +11,6 @@ My research revolves around computer networks. I want to make networks more reli
 
 ## Why this contribution is meaningful to the project (1-3 sentences):
 By opensourcing my code, I believe that others can contribute to it and take it towards a production-quality level.
+
+## Link to Homework 4
+I did my homework 4 by creating a new repo: https://github.com/azzamsu/HelloCI

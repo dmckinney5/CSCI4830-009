@@ -1,5 +1,5 @@
 # Student Name: Ben Droste
-# Project Name: Docker
+# Project Name: GW2Acheivments
 # Project URL: https://github.com/Bendroste/GW2Acheivments
 # HW3 URL: https://github.com/Bendroste/GW2Acheivments
  

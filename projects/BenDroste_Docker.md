@@ -1,10 +1,10 @@
 # Student Name: Ben Droste
 # Project Name: Docker
-# Project URL: https://github.com/docker/docker
-# HW3 URL: https://github.com/Bendroste/OpenSourceHW3
+# Project URL: https://github.com/Bendroste/GW2Acheivments
+# HW3 URL: https://github.com/Bendroste/GW2Acheivments
  
-## Planned contribution (1-3 sentences): I plan on adding to the docker docs. 
+## Planned contribution (1-3 sentences): I plan on making a java program that will call the Guild Wars 2 api.
 
-## Why this project is meaningful to me (1-3 sentences): These files have helped me when I was learning docker and if I could help improve them then I would concider that a win.
+## Why this project is meaningful to me (1-3 sentences): I have been playing Guild Wars 2 for roughly 3 years now, and dispite that lenght of time, one aspect that i feel like i can get more play time out of is acheivments. This program will allow me to explore the acheivments in a way that i could not through the games UI.
 
-## Why this contribution is meaningful to the project (1-3 sentences): Docker is quickly becoming an important tool for developers. However since it is still growing, new features are difficult to understand. Keeping the docs up to date and user friendly will allow others to improve their skills with docker.
+## Why this contribution is meaningful to the project (1-3 sentences): Others would be able to use my project to further expand the diffrent ways they could play the game. 

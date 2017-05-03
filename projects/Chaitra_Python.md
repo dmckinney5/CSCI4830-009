@@ -1,5 +1,5 @@
 ## Student Name: Chaitra Ramachandra
-## Project Name: Python
+## Project Name: Traceroute
 ### Project URL: [link to github repo for Traceroute](https://github.com/ChaitraRp/traceroute)
 
 Initially I wanted to contribute to python by fixing bugs. I have changed my plan and I have designed a tool to do  traceroute in Windows systems using the same commands as in Unix systems.
